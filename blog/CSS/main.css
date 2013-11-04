@@ -1,6 +1,31 @@
+@font-face {
+	font-family: LeagueGothic;
+	src: url("type/league-Gothic/LeagueGothic-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LeagueGothic;
+	src: url("type/league-Gothic/LeagueGothic-Italic.otf") format("opentype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: LeagueGothicCondensed;
+	src: url("type/league-Gothic/LeagueGothic-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LeagueGothicCondensed;
+	src: url("type/league-Gothic/LeagueGothic-Italic.otf") format("opentype");
+	font-style: italic;
+}
+
 body {
 	background-color: rgb (138,168,152);
 	padding: 100px;
 	color: #355465;
 	font-size: 18px;
+	h1 {
+		font-family: sans-serif;
+	}
 }
